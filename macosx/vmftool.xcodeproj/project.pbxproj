@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45C5F8991BC61357006D8CCF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45C5F8981BC61357006D8CCF /* main.cpp */; };
+		45C5F8A41BC6159E006D8CCF /* libvmf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C5F8A21BC61567006D8CCF /* libvmf.a */; };
+		45C5F8A71BC616A6006D8CCF /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C5F8A61BC616A6006D8CCF /* CoreFoundation.framework */; };
+		45C5F8A91BC616F5006D8CCF /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45C5F8A81BC616F5006D8CCF /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		45C5F8931BC61357006D8CCF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		45C5F8951BC61357006D8CCF /* vmftool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = vmftool; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C5F8981BC61357006D8CCF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		45C5F8A21BC61567006D8CCF /* libvmf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvmf.a; path = lib/libvmf.a; sourceTree = "<group>"; };
+		45C5F8A51BC615B5006D8CCF /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		45C5F8A61BC616A6006D8CCF /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		45C5F8A81BC616F5006D8CCF /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C5F8921BC61357006D8CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C5F8A91BC616F5006D8CCF /* Carbon.framework in Frameworks */,
+				45C5F8A71BC616A6006D8CCF /* CoreFoundation.framework in Frameworks */,
+				45C5F8A41BC6159E006D8CCF /* libvmf.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45C5F88C1BC61357006D8CCF = {
+			isa = PBXGroup;
+			children = (
+				45C5F8A81BC616F5006D8CCF /* Carbon.framework */,
+				45C5F8A61BC616A6006D8CCF /* CoreFoundation.framework */,
+				45C5F8A51BC615B5006D8CCF /* include */,
+				45C5F8A21BC61567006D8CCF /* libvmf.a */,
+				45C5F8971BC61357006D8CCF /* vmftool */,
+				45C5F8961BC61357006D8CCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45C5F8961BC61357006D8CCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C5F8951BC61357006D8CCF /* vmftool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45C5F8971BC61357006D8CCF /* vmftool */ = {
+			isa = PBXGroup;
+			children = (
+				45C5F8981BC61357006D8CCF /* main.cpp */,
+			);
+			path = vmftool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C5F8941BC61357006D8CCF /* vmftool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C5F89C1BC61357006D8CCF /* Build configuration list for PBXNativeTarget "vmftool" */;
+			buildPhases = (
+				45C5F8911BC61357006D8CCF /* Sources */,
+				45C5F8921BC61357006D8CCF /* Frameworks */,
+				45C5F8931BC61357006D8CCF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vmftool;
+			productName = vmftool;
+			productReference = 45C5F8951BC61357006D8CCF /* vmftool */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45C5F88D1BC61357006D8CCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jameson Williams";
+				TargetAttributes = {
+					45C5F8941BC61357006D8CCF = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 45C5F8901BC61357006D8CCF /* Build configuration list for PBXProject "vmftool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45C5F88C1BC61357006D8CCF;
+			productRefGroup = 45C5F8961BC61357006D8CCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C5F8941BC61357006D8CCF /* vmftool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C5F8911BC61357006D8CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C5F8991BC61357006D8CCF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45C5F89A1BC61357006D8CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		45C5F89B1BC61357006D8CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		45C5F89D1BC61357006D8CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/include/\" \"$(SRCROOT)/include/vmf/\"";
+			};
+			name = Debug;
+		};
+		45C5F89E1BC61357006D8CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "\"$(SRCROOT)/include/\" \"$(SRCROOT)/include/vmf/\"";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C5F8901BC61357006D8CCF /* Build configuration list for PBXProject "vmftool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C5F89A1BC61357006D8CCF /* Debug */,
+				45C5F89B1BC61357006D8CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C5F89C1BC61357006D8CCF /* Build configuration list for PBXNativeTarget "vmftool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C5F89D1BC61357006D8CCF /* Debug */,
+				45C5F89E1BC61357006D8CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45C5F88D1BC61357006D8CCF /* Project object */;
+}
