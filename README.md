@@ -1,6 +1,6 @@
 # README #
 
-VMF Tool is a command-line utility to add and remove metadata information from a video file.
+VMF Tool is a command-line utility to Write and read metadata information from a video file.
 
 Currently there are projects for both Linux and Mac OS X.
 
